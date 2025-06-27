@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+ <title>Paracrafts</title>
+
+  <head>
+      <link rel="icon" type="image/x-icon" href="data/Fav_Icon.webp">
+  <link rel="stylesheet" href="Style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="aos.css">
+  </head>   
+
+
+ <body>
+        
+
+
+       <div class="cursor-dot" data-cursor-dot></div>
+       <div class="cursor-outline " data-cursor-outline></div>
+
+
+       <div class="topbtn">
+        <a class="to-top" href="#"><i class="fa-solid fa-angle-up"></i></a>
+       </div>
+
+       <div data-aos="fade-down">
+       <div class="header">
+                  <div class="salesmainandphoneno">
+                               <ul>
+                                     <li><a href="mailto:zafarali.pg@gmail.com">zafarali.pg@gmail.com</a></li>
+                                     <li><a href="https://wa.me/9897132820">+91 9897132820</a></li>
+                              </ul><br>
+                             <hr>       
+                 </div>
+            </div>
+       </div>
+
+          <div class="navbar">
+
+              <ul><li><a href="http://127.0.0.1:5500/"><img src="Data/Untitled-2.webp" alt="logo"></a></li></ul>
+                 
+                    <div class="optionofnav">
+                              <style>
+                                     .homeactive{
+                                      border-bottom:2px solid rgb(191, 33, 54);
+                                     color: rgb(191, 33, 54) !important;
+                                    padding-bottom: 9px;}
+                              </style> 
+                                                      <ul>
+
+                                                             <li><a class="ops home homeactive" href="http://127.0.0.1:5500/">HOME</a></li>
+                                                                    <li class="submenu"><a class="ops opsbut prod" href="">PRODUCT</a>
+                                                                      <div class="submenucontent1">
+                                                                      <ul>
+                                                                        <li><a href="http://127.0.0.1:5500/products.html">URNS FOR ASHES</a></li>
+                                                                      <li><a href="">MIRRORS & WALL ARTS</a></li>
+                                                                     <li><a href="">JWELLERY</a></li>
+                                                                       <li><a href="">BLOG</a></li>
+                                                                       <li><a href="">KNITTING & CROCHETING</a></li>
+                                                                        <li><a href="">GAMES & PUZZLES</a></li>
+                                                                        <li><a href="">NAUTICAL</a></li>
+  
+                                                                        </ul>
+                                                                              </div>
+                                                                                </li>
+  
+                                                                     <li><a class="ops sust" href="http://127.0.0.1:5500/sustainability.html">SUSTAINABILITY</a></li>
+  
+                                                                                             
+                                                                                                <li class="submenu"><a class="ops opsbut2" href="">OUR STORY</a>
+                                                                                                     <div class="submenucontent2">
+  
+                                                                                                           <ul>
+                                                                                         <li><a href="">ABOUT CRAFTWIZ</a></li>
+                                                                     <li><a href="http://127.0.0.1:5500/Ourstory.html">LEADERSHIP</a></li>
+          
+                                                                                                       </ul>
+  
+                                                                         </div>
+                                                                          
+                                                                        </li>
+  
+                                                                   <li><a class="ops gall" href="http://127.0.0.1:5500/Gallery.html">GALLERY</a></li>
+                                                                    <li><a class="ops cont" href="http://127.0.0.1:5500/Contactus.html">CONTACT US</a></li>
+                                                                   <li><a class="ops carr" href="http://127.0.0.1:5500/Whyjoinus.html">CAREER</a></li>
+  
+  
+                                                                        </ul>
+ 
+  
+                                                                        
+                                                                                    </div>
+
+                       </div>
+          
+
+                                                                                      
+
+                       <div class="moblogo">
+                   <a href=""><img src="Data/Untitled-2.webp" alt="LOGO"></a>  
+                      
+                   <div class="menu">
+                    <ul>
+                        <li><a  onclick="menuclick()" id="menuclick"  href="#"><i class="fa-solid fa-bars"></i> <span>MENU</span></a></li>
+                    
+                    </ul>
+                </div>
+                    </div>
+                       
+                       
+                    
+                    <div id="mobnav" class="mobnav">
+                    <div class="moboptionofnav">
+                        
+                            <ul>
+                                <li><a href="http://127.0.0.1:5500/">HOME</a></li> <hr>
+                                <li class="mobprod" id="prodlist" onclick="prodlist()"><a href="#">PRODUCT <span><i class="fa-solid fa-caret-right"></i></span></a>
+                                    
+                                    <div class="prodmenu" id="prodmenu">
+                                        <button id="probackbtn" onclick='submenuback()' class="backbutton1"><i class="fa-solid fa-circle-arrow-left"></i></button>
+                                    <ul>
+                                        <li><a href="http://127.0.0.1:5500/products.html">URNS FOR ASHES</a></li> <hr>
+                                                    <li><a href="">MIRRORS & WALL ARTS</a></li><hr>
+                                                   <li><a href="">JWELLERY</a></li><hr>
+                                                     <li><a href="">BLOG</a></li><hr>
+                                                     <li><a href="">KNITTING & CROCHETING</a></li><hr>
+                                                      <li><a href="">GAMES & PUZZLES</a></li><hr>
+                                                      <li><a href="">NAUTICAL</a></li><hr>
+                                    </ul>
+                                    </div>
+
+                                </li><hr>
+                                <li><a href="">SUSTAINABILITY</a></li><hr>
+                                <li class="mobourstry"><a href="#">OUR STORY <span><i class="fa-solid fa-caret-right"></i></span></a>
+                                   
+                                    <div class="mastersubmenu2">
+                                        <div class="mobsubmenu2">
+                                    
+                                            <ul>
+                               
+                                                <li class="backbut"><a href="#"><i class="fa-solid fa-circle-arrow-left"></i></a></li>
+                                                <li><a href="">ABOUT CRAFTWIZ</a></li>
+                                                <li><a href="http://127.0.0.1:5500/Ourstory.html">LEADERSHIP</a></li>
+                                            
+                                            </ul>
+                                    
+                                    
+                                        </div>
+                                    </div>
+                                </li><hr>
+                                <li><a href="">GALLERY</a></li><hr>
+                                <li><a href="">CONTACT US</a></li><hr>
+                                <li><a href="">CAREER</a></li><hr>
+                                
+                            </ul>
+                        </div>
+              
+                        </div>          
+          
+
+                        <div data-aos="fade-down">
+
+          <div class="homeliveimagecontainer">
+                <div class="scrollmoiconcont">
+                    <div class="scrollmoicon">
+                     <div class="lefclick"></div>   
+                        <h1>DISCOVER</h1>
+                        <div class="scrolldots">
+                        </div>
+                        <div class="righclick"></div>  
+                    </div>
+                </div>
+  </div></div>
+
+  <div class="fullscreen-overlay" id="fullscreenOverlay">
+  <button class="close-btn" onclick="closeFullscreen()">✕</button>
+  <img id="fullscreenImage" src="" alt="Full Image">
+</div>
+
+  <div data-aos="fade-up-right">
+    <div class="images-container">
+        <div class="image-wrapper">
+          <img src="Data/Chess copy.webp" alt="Thumbnail Image 1" class="thumbnail">
+        </div>
+        <div class="image-wrapper">
+            <img src="Data/urnashes.webp" alt="Thumbnail Image 2" class="thumbnail">
+        </div>
+        <div class="image-wrapper">
+            <img src="Data/snakelamp121406 copy.webp" alt="Thumbnail Image 3" class="thumbnail">
+        </div>
+    </div>
+
+    <!-- Fullscreen Overlay -->
+<div id="fullscreenOverlay" class="fullscreen-overlay" onclick="handleOverlayClick(event)">
+  
+    <a id="buyNowBtn" class="buy-now-btn" href="https://www.amazon.in/dp/YOUR_PRODUCT_ID" target="_blank">Buy Now</a>
+  
+    <button id="closeBtn" class="close-btn" onclick="closeFullscreen()">✕</button>
+  <img id="fullscreenImage" src="" alt="Full Image">
+</div>
+
+
+
+ 
+  <!-- <div class="homeimgsec1">
+
+
+    <div class="chesscontainer">
+        <img class="Chess" src="Data/Chess copy.webp" >
+        
+    </div>   
+    
+    <div class="urnashescontainer">
+        <img class="urnashesbox" src="Data/urnashes.webp" >
+        
+    </div>
+    
+    <div class="yarnwindercontainer">
+        <img class="yarnwinder" src="Data/yarnwinder.webp" >
+        
+    </div>  
+
+  </div> -->
+
+
+</div>
+
+<div data-aos="fade-up-left">
+
+    <div class="images-container">
+        <div class="image-wrapper">
+            <img src="Data/diyaaffoxy.webp" alt="Thumbnail Image 4" class="thumbnail">
+        </div>
+        <div class="image-wrapper">
+            <img src="Data/nadabowl.webp" alt="Thumbnail Image 5" class="thumbnail">
+        </div>
+        <div class="image-wrapper">
+            <img src="Data/tableaffoxy.webp" alt="Thumbnail Image 6" class="thumbnail">
+        </div>
+    </div>
+
+
+    <div class="fullscreen-overlay" id="fullscreenOverlay">
+        <button class="close-btn" id="closeBtn"><i class="fa-solid fa-xmark fa-2x"></i></button>
+        <img src="" alt="Fullscreen Image" id="fullscreenImage">
+    </div>
+  <!-- <div class="homeimgsec1_1">
+    
+    <div class="divyaaffoxycontainer">
+                        
+        <img class="diyaaffoxy" src="Data/diyaaffoxy.webp" >
+    </div>
+    
+    <div class="nadabowlcontainer">
+        
+    <img class="nadabowl" src="Data/nadabowl.webp" >
+    </div>
+    <div class="tableaffoxycontainer">
+        
+        <img class="tableaffoxy" src="Data/tableaffoxy.webp" >
+    </div>
+    </div> -->
+
+</div>
+
+<div data-aos="fade-up">
+    <div class="bsheading">
+        <img class="des_1" src="Data/Headblack.png" >
+            <h1 class="bsheadtextb">BEST SELLERS</h1>
+            <img class="des_2" src="Data/Headblack.png" >
+        </div>
+
+
+        <div class="bsheadingparab">
+            <p>Trending This Week</p>
+        </div>
+    </div>
+      
+    <div data-aos="fade-up">
+
+        <div class="images-container">
+            <div class="image-wrapper">
+                <img src="Data/oST.webp" alt="Thumbnail Image 4" class="thumbnail">
+            </div>
+            <div class="image-wrapper">
+                <img src="Data/sNd.webp" alt="Thumbnail Image 5" class="thumbnail">
+            </div>
+            <div class="image-wrapper">
+                <img src="Data/wallmirror.webp" alt="Thumbnail Image 6" class="thumbnail">
+            </div>
+        </div>
+    
+        <!-- <div class="homeimagesec2">
+    
+            <div class="oSTimgcontainer">
+        
+                <img class="oSTimg" src="Data/oST.webp" >
+            </div>
+        
+        
+        
+            <div class="sNdimgcontainer">
+        
+                <img class="sNdimg" src="Data/sNd.webp" >
+            </div>
+            
+            
+            <div class="thrdimgcontainer">
+        
+        
+                <img class="thrdimg" src="Data/wallmirror.webp" >
+            </div>
+        </div> -->
+   </div>
+   <div data-aos="fade-up">
+        <div class="blackworkerbackbox">
+        
+        
+            <div class="workerboximagecontainer">
+                <img class="workerimage" src="Data/manworker113002 copy.webp" alt="">
+            </div>
+            
+               
+            <div class="workercontentcontainer">
+        
+                <h1 class="workerflexheadin">
+                    Crafting Excellence: <br>
+                    Discover Our Fine Wooden Creations</h1><br>
+
+                    <h2 class="Craftsmansubheading">The Beauty of Wood. 
+                        Built by Nature.
+                         Perfected by Us.</h2>
+            
+        <p class="workerflexpara">
+                       In today’s world, people are more aware than ever of the natural beauty and warmth that <br>
+                        wooden products bring to homes and workspaces. These timeless pieces offer a sense of <br>elegance,
+                         minimalism, and originality that no synthetic material can match.
+                         <br>
+                         <br>
+
+But when it comes to quality,
+only a few truly know how to distinguish genuine craftsmanship <br>from mass-produced alternatives.
+Not every wooden piece you see is natural, strong, or <br>finished with care — and that’s where 
+Paracrafts stands apart.<br><br>
+
+At Paracrafts, we don’t just make wooden products — we craft experiences.
+Every item is<br> made from authentic natural wood like Sheesham and Steam Beech, finished with shiny<br> smoothness,
+ built to last, and designed to elevate your space. We confidently promise:</p>
+                
+               <!--  <button class="workerknomorebtnrdata">KNOW MORE</button>
+               -->
+                 <div class="knowmorebtn">
+    
+            <ul>
+                <li>
+                    <a href="#">KNOW MORE <i class="fa-solid fa-arrow-right"></i></a></li>
+               </ul>
+        
+                   </div>
+            
+            </div></div> 
+   </div>
+
+   <div data-aos="fade-up">
+            <div class="bsheading">
+                <img class="des_1" src="Data/Headblack.png" >
+                    <h1 class="bsheadtextb">NEW ARRIVALS</h1>
+                    <img class="des_2" src="Data/Headblack.png" >
+                </div>
+                
+                <div class="bsheadingparab">
+                    <p>Take a glance at Latest Creations</p>
+                </div>
+   </div>
+
+   <div data-aos="fade-up">
+
+    <div class="images-container">
+        <div class="image-wrapper">
+            <img src="Data/snakelamp121406 copy.webp" alt="Thumbnail Image 4" class="thumbnail">
+        </div>
+        <div class="image-wrapper">
+            <img src="Data/culalight.webp" alt="Thumbnail Image 5" class="thumbnail">
+        </div>
+        <div class="image-wrapper">
+            <img src="Data/spicebox1_121442 copy.webp" alt="Thumbnail Image 6" class="thumbnail">
+        </div>
+    </div>
+
+    <!-- 
+                <div class="homeimgsec1">
+
+                    <div class="chesscontainer">
+                        <img class="Chess" src="Data/snakelamp121406 copy.webp" >
+                        
+                    </div>   
+                    
+                    <div class="urnashescontainer">
+                        <img class="urnashesbox" src="Data/culalight.webp" >
+                        
+                    </div>
+                    
+                    <div class="yarnwindercontainer">
+                        <img class="yarnwinder" src="Data/spicebox1_121442 copy.webp" >
+                      
+                    
+                    </div>
+                        
+                    </div>   -->
+   </div>
+
+   <div data-aos="fade-up">
+                    
+    <div class="images-container">
+        <div class="image-wrapper">
+            <img src="Data/bearstray.webp" alt="Thumbnail Image 4" class="thumbnail">
+        </div>
+        <div class="image-wrapper">
+            <img src="Data/waTCH.webp" alt="Thumbnail Image 5" class="thumbnail">
+        </div>
+        <div class="image-wrapper">
+            <img src="Data/spoon.webp" alt="Thumbnail Image 6" class="thumbnail">
+        </div>
+    </div>
+<!-- 
+    <div class="homeimgsec1_1">s
+
+                        <div class="chesscontainer">
+                            <img class="Chess" src="Data/bearstray.webp" >
+                            
+                        </div>   
+                        
+                        <div class="urnashescontainer">
+                            <img class="urnashesbox" src="Data/waTCH.webp" >
+                            
+                        </div>
+                        
+                        <div class="yarnwindercontainer">
+                            <img class="yarnwinder" src="Data/spoon.webp" >
+                          
+                        
+                        </div>
+                            
+                        </div>   -->
+   </div>
+   <div data-aos="fade-up">
+        <div class="howweworkcontainer">
+            <h1>HOW WE WORK</h1>
+        <!-- <p>All you need to make your workspace <br>
+            wooden with beauty and shiny.</p> -->
+
+            <p>From Idea to Installation – Premium Wooden Craftsmanship, Delivered with Care</p>
+       
+       
+       
+                <div class="howworkboxall">
+                    
+                    <div data-aos="fade-up"
+                    data-aos-duration="1000">
+                    <div class="howworkbox">
+    
+    <h1>01</h1>
+                        <h2>Understand Your Needs</h2>
+    
+        <p> Every space is unique. We begin by understanding your goals, style preferences, and space requirements to define the best solution for your custom wooden product needs — whether it’s home décor, workspace accents, or handcrafted gifting. </p>
+                    </div></div>
+
+                         
+                    <div data-aos="fade-up"
+                    data-aos-duration="2000">
+                    <div class="howworkbox">
+                        <h1>02</h1>
+                        <h2>Propose the Right Solution</h2>
+    
+            <p> We craft personalized ideas to match your vision, combining natural hardwood design with functionality. Our team suggests eco-conscious and space-smart wooden concepts — suitable for modern and traditional spaces.</p>
+                    </div></div>
+
+                                 
+                    <div data-aos="fade-up"
+                    data-aos-duration="3000">
+                    <div class="howworkbox">
+                        <h1>03</h1>
+                        <h2>Design & Craftsmanship</h2>
+    
+            <p>Once approved, our craftsmen create your product using premium solid woods like Sheesham or Steam Beech. With a focus on durability, shine, and detail, each piece is built to stand out in both quality and character.
+            </p>
+                    </div></div>
+
+                    <div data-aos="fade-up"
+                    data-aos-duration="3000">
+                    <div class="howworkbox">
+                        <h1>04</h1>
+                        <h2>Delivery & Installation</h2>
+    
+            <p>We safely deliver your product and provide optional professional installation services, ensuring a perfect fit. Whether it’s furniture, wall décor, or wooden accessories — our products arrive ready to elevate your space.
+            </p>
+    </div>
+
+                    </div>
+                    
+                    </div>
+        
+       
+       
+       
+        </div>
+            </div>
+                        
+            <div data-aos="fade-up">
+            <div class="homerefreshwaterhand">
+    
+                <div class="refreshheading">
+                    <h1 class="refreshhead">Crafted from 100% Natural <br>
+                         Wood. Hand-Finished with Care.</h1>  <br>
+                   <p class="refreshpara">At Paracrafts, every product begins with authentic, eco-friendly <br>
+                     solid wood, showcasing its rich natural grain and beauty. <br>
+We use a combination of precision machines such as CNC, <br> 
+Ara cutting machines, etc., along with traditional hand-finishing <br>
+techniques to ensure each item is strong, shiny, and premium. <br>
+From shaping to polishing, our process reflects attention to<br> detail, craftsmanship, and quality you can trust.</p> 
+                   </div>
+                </div></div>
+
+
+                <div data-aos="fade-up">
+                    <div class="forblackgbgdiv">
+                     <div class="design">
+                       
+                    <img class="des_1w" src="Data/Headwhite.png" >
+                    <h1 class="bsheadtext">OUR EXCLUSIVE SERVICES</h1>
+                    <img class="des_2w" src="Data/Headwhite.png" > 
+                     </div>
+                       
+                            <div class="bsheadingpara">
+                                <p>Exclusive set of services for our esteemed buyers!</p>
+                            </div>
+
+<div class="ourserviceswholecontainer">
+    <div class="iconandtext">
+    <img src="data/Genuine.png" alt="image">
+    <h1>Genuine Quality</h1>
+    </div>
+    <div class="iconandtext">
+    <img src="data/Customer care.png" alt="image">
+    <h1>24x7 Customer 
+        Support</h1>
+    </div>
+    <div class="iconandtext">
+    <img src="data/Carving.png" alt="image">
+    <h1>Carving</h1>
+    </div>
+    <div class="iconandtext">
+    <img src="data/Delivery Truck.png" alt="image">
+    <h1>Timely 
+        Delivery</h1>
+    </div>
+    <div class="iconandtext">
+    <img src="data/Customization.png" alt="image">
+    <h1>Product 
+        Customization</h1>
+    </div>
+                    
+</div>
+
+                        </div></div>
+                    
+           
+                        <div data-aos="fade-up">
+                        <div class="bsheading">
+                            <img class="des_1" src="Data/Headblack.png" >
+                                <h1 class="bsheadtextb">NEW ARRIVALS</h1>
+                                <img class="des_2" src="Data/Headblack.png" >
+                            </div>
+                            
+                            <div class="bsheadingparab">
+                                <p>Take a glance at Latest Creations</p>
+                            </div></div>
+
+
+
+                            <div data-aos="fade-right"
+     data-aos-easing="ease-in-sine">
+                            <div class="robcontainer">    
+                                <div class="robminicont1">
+                                      <h1>ROSEWOOD SPICE BOX BY CRAFT WIZ:  <br> 
+                                       A BEAUTIFUL AND PRACTICAL ACCESSORY  <br>   
+                                        FOR YOUR KNITTING AND CROCHETING <br>  
+                                         PROJECTS</h1>
+
+                                         <p>A yarn bowl is a specially designed container that holds your yarn and <br>
+                                            prevents it from rolling away or getting tangled. It has a smooth <br>
+                                            surface and a hole or a slit through which you can pull your yarn. It <br>
+                                            also adds a touch of beauty and elegance to your crafting space. <br>
+                                            Many types of yarn bowls are available in the market, but one of the <br> 
+                                            most exquisite and durable ones is the rosewood yarn bowl by CRAFTS  <br>
+                                            WIZ. This yarn bowl is handcrafted from high-quality rosewood, which  <br>
+                                            is known for its rich color, natural grain, and strength. It has a smooth  <br> 
+                                            finish and a glossy shine that enhances its beauty.</p>
+                                </div>
+                                <div class="robminicont2">
+                                        <img src="Data/kitchen_items.webp" alt="image">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div data-aos="fade-left"
+                        data-aos-easing="ease-in-sine">
+                            <div class="robcontainer">    
+                                <div class="robminicont1">
+                                      <h1>ROSEWOOD UNIQUE WOODEN LAMP</h1>
+
+                                         <p>The CRAFTS WIZ Rosewood Yarn Bowl is made from premium <br>
+                                            quality rosewood, which is known for its durability and strength. <br>
+                                            The wood is carefully selected by skilled artisans who ensure that <br>
+                                            only the best quality wood is used for crafting the yarn bowl. The <br>
+                                            rosewood is also handcrafted, which means that each bowl is <br>
+                                            unique and has its own distinct characteristics.<br>
+                                            The bowl's design is carefully crafted to prevent tangling, and the <br>
+                                            smooth surface ensures that the yarn glides through effortlessly. <br>
+                                            The bowl is also large enough to hold a variety of yarn sizes and <br>
+                                            can be used for various types of projects. The bowl's weight is also <br>
+                                            carefully balanced to prevent it from tipping over while you work.<br>
+                                            that the yarn glides through effortlessly. <br>
+                                            The bowl is also large enough to hold a variety of yarn sizes and <br>
+                                            can be used for various types of projects.</p>
+                                </div>
+                                <div class="robminicont2">
+                                        <img src="Data/strait_stick_lampt.webp" alt="image">
+                                </div>
+                            </div>
+                        </div>
+
+                            
+                            
+                        <div data-aos="fade-up"
+                        data-aos-offset="200">
+                                <div class="reviewboxescont">
+                                    <div class="bsheading">
+                                        <img class="des_1" src="Data/Headblack.png" >
+                                            <h1 class="bsheadtextb">TESTIMONIALS</h1>
+                                            <img class="des_2" src="Data/Headblack.png" >
+                                        </div>
+                                        
+                                        <div class="bsheadingparab">
+                                            <p>A LITTLE FEEDBACK FROM OUR BUYERS!</p>
+                                        </div>
+                               
+
+                                        <div class="boxes">
+
+                                            <div data-aos="fade-right"
+                                            data-aos-offset="200"
+                                            data-aos-easing="ease-in-sine">
+                                 <div class="revbox">
+                                        <p>I ordered a Paracrafts wooden piece as a gift for my friend’s new home — and wow, it exceeded expectations! The shine, the weight, the natural grains — everything screams premium quality. Best part? It arrived exactly as shown, well-packaged, and ready to impress. My friend loved it so much, she’s now ordering more for her workspace. If you want something that’s classy, natural, and built to last, Paracrafts is it.</p>
+                                       </div>  
+                                    </div>
+                                    <div data-aos="fade-left"
+                                    data-aos-offset="200"
+                                    data-aos-easing="ease-in-sine">
+                                    <div class="revbox2">
+                                        <p>I’ve purchased a lot of home décor pieces over the years, but nothing matches the charm and quality of Paracrafts. The moment I unboxed their wooden product, I could feel the richness of the natural wood and the effort that went into making it. It’s not just a product — it feels like art. Smooth finish, solid build, and a design that adds a calm, earthy vibe to my living space. Truly proud to support a brand that delivers handcrafted excellence with heart.</p>
+                                    </div></div>
+                                </div>
+                                </div></div>
+                       
+
+                                     
+                                <div data-aos="fade-up"
+                                data-aos-offset="200">
+<div class="downloadcataloguepanel">
+<div class="wholediv">
+
+    <div data-aos="fade-right"
+    data-aos-offset="200"
+    data-aos-easing="ease-in-sine">
+    <div class="panel1">
+        <h1>Download Catalogue!</h1>
+        <p>Explore our diverse catalogue of curated products, meticulously designed to <br>
+            enhance your lifestyle through innovation, and style.</p>
+        
+            <ul>
+                <li><a href="#"> DOWNLOAD CATALOGUE <SPAN><i class="fa-solid fa-arrow-right"></i></SPAN></a></li>
+            </ul>
+        
+        </div></div>
+
+        <div data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+         <div class="panel2">
+            <img src="Data/suspended lamp cata cover image.webp" alt="image">
+        </div> </div>
+        
+</div>
+
+</div></div>
+
+
+<!-- Footer for desktop version -->
+
+
+               
+
+<div data-aos="zoom-out-down"
+data-aos-offset="350">
+<div class="footerbackground">
+
+<div class="wholefooterexceptdisclaimer">
+   
+   <div class="footdiv1">
+    <div class="footlogodiv">
+        <a href=""><img src="Data/Black_logo.png" alt=""></a>
+    
+        <div class="footermailandphone">
+            <ul>
+                <li><a href="mailto://zafarali.pg@gmail.com">sales@craftswiz.com</a></li>
+                <li><a href="https://wa.me/9897132820">+91 9897132820</a></li>
+            </ul>
+        </div>
+        <div class="socialmicons">
+            <a href=""><i class="fa-brands fa-instagram fa-2x"></i></a>
+            <a class="footlinkdin" href="https://www.linkedin.com/in/zafar-ali-8b94482ab/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+        </div>
+    </div>
+   
+   </div>
+    
+<div class="footdiv2">
+    <div class="footdivsecs">
+    
+       
+    </div>
+</div>
+
+<div class="footdiv3">
+    <div class="footdivsecs">
+    
+        <h1>OUR STORY</h1>
+        <ul>
+            <li><a href="">About CraftsWiz</a></li>
+            <li><a href="">Leadership</a></li>
+            <li><a href="">Sustainability</a></li>
+           </ul>
+    </div>
+</div>
+
+<div class="footdiv4">
+    <div class="footdivsecs">
+    
+        <h1>OTHER LINKS</h1>
+        <ul>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Download Catalogue</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">Why Join Us</a></li>
+            <li><a href="">Careers</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="footdiv5">
+    <div class="footdivsecs">
+    
+        <h1>COORPORATE OFFICE</h1>
+        
+            <ul> <li><a href="">Moholla Luhari Sarai, Machli Bazar, <br>
+                Nagina, District:Bijnor, U.P. 246762</a></li>
+            </ul>
+                <h1>FACTORY ADDRESS</h1>
+
+                <ul> <li> <a href="">Noor Sarai Nizam Sarai,
+                Near Aulia <br>Masjid Nagina 
+                District: Bijnor, U.P. 246762</a></li>
+            </ul>
+        
+    </div>
+</div>
+
+    </div>
+    </div>
+
+<!-- footer end for desktop version -->
+
+
+
+<!-- Footer start for android version -->
+
+
+<div class="mobfooterbackground">
+
+<div class="mobwholefooterdiv" style="padding: 0 100px;">
+    <div class="mobdivsec1">
+        <a href=""><img src="Data/Untitled-2.webp" alt="logo"></a>
+        <ul>
+            <li><a href="mailto://zafarali.pg@gmail.com">sales@craftswiz.com</a></li>
+            <li><a href="https://wa.me/9897132820">+91 9897132820</a></li>
+          </ul>
+    <div class="mobsocialmediaicons">
+        <a href=""><i class="fa-brands fa-instagram fa-3x"></i></a>
+        <a class="footlinkdin" href="https://www.linkedin.com/in/zafar-ali-8b94482ab/"><i class="fa-brands fa-linkedin fa-3x"></i></a>
+   
+    </div>
+
+        </div>
+    <div class="mobdivsec2">
+        
+        <div class="mobproddiv">1
+            <h1>PRODUCT</h1>
+            <ul>
+                <li><a href="">Jwellery</a></li>
+                <li><a href="">Nautical</a></li>
+                <li><a href="">Games & Puzzles</a></li>
+                <li><a href="">Mirror & Wall Arts</a></li>
+                <li><a href="">Knitting & Crocheting</a></li>
+                <li><a href="">Urns for Ashes</a></li>
+            </ul>
+
+        </div>
+<div class="mobourstrydivcont">
+
+        <div class="mobproddiv">
+
+    <h1>OUR STORY</h1>
+    <ul>
+        <li><a href="">About CraftsWiz</a></li>
+        <li><a href="http://127.0.0.1:5500/Ourstory.html">Leadership</a></li>
+        <li><a href="http://127.0.0.1:5500/sustainability.html">Sustainability</a></li>
+       </ul>
+</div>
+</div>
+
+    </div>
+    <div class="mobdivsec3">
+        <div class="mobproddiv">
+        <h1>OTHER LINKS</h1>
+        <ul>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">Download Catalogue</a></li>
+            <li><a href="http://127.0.0.1:5500/Contactus.html">Contact Us</a></li>
+            <li><a href="">Why Join Us</a></li>
+            <li><a href="http://127.0.0.1:5500/Career.html">Careers</a></li>
+        </ul>
+    </div></div>
+    <div class="mobdivsec4">
+        <div class="mobproddiv">
+        <h1>COORPORATE OFFICE</h1>
+        
+            <ul> <li><a href="">Moholla Luhari Sarai, Machli Bazar, <br>
+                Nagina, District:Bijnor, U.P. 246762</a></li>
+            </ul>
+                <h1>FACTORY ADDRESS</h1>
+
+                <ul> <li> <a href="">Noor Sarai Nizam Sarai,<br>
+                Near Aulia Masjid Nagina <br>
+                District: Bijnor, U.P. 246762</a></li>
+            </ul>
+        
+    </div>
+    </div>
+    
+</div>
+</div>
+
+
+    <div class="divider">
+    <span></span>
+</div>
+    
+<div class="disclaimer">
+    <p>© Copyright 2025 <span>Paracrafts</span>. All rights reserved.</p>
+</div></div>
+    
+
+
+
+
+<!-- Cursor smooth anim script -->
+<script src="Cursordes.js"></script>
+<!-- End Cursor smooth anim script -->
+<script src="aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+<script src="main.js"></script>
+<script src="full screen.js"></script>
+</body>
+</html>
