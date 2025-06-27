@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+ <title>CraftsWiz - CraftsWiz</title>
+
+  <head>
+      <link rel="icon" type="image/x-icon" href="data/Untitled-2.webp">
+  <link rel="stylesheet" href="Style.css">
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+  </head>
+
+
+          <body>
+            <div class="cursor-dot" data-cursor-dot></div>
+            <div class="cursor-outline " data-cursor-outline></div>
+            <a class="to-top" href="#"><i class="fa-solid fa-angle-up"></i></a>
+            <script src="Cursordes.js"></script>
+
+    <script src="main.js"></script>
+         
+    <style>
+        .prodactive{
+           
+        border-bottom:2px solid rgb(191, 33, 54) !important;
+        color: rgb(191, 33, 54) !important;
+            padding-bottom: 9px;
+    
+    }
+        
+    </style>
+      <div class="header">
+
+          <div class="salesmainandphoneno">
+              <ul>
+                
+                  <li><a href="mailto://zafarali.pg@gmail.com">sales@craftswiz.com</a></li>
+                  <li><a href="https://wa.me/9897132820">+91 9897132820</a></li>
+              
+              </ul>
+              <br>
+              <hr>
+            </div>
+      </div>
+    
+          <div class="navbar">
+
+             <ul><li><a href="http://127.0.0.1:5500/"><img src="Data/Untitled-2.webp" alt="logo">
+            </a></li></ul>
+
+
+                  <div class="optionofnav">
+                      <style>
+                       .homeactive{
+                              border-bottom:2px solid rgb(191, 33, 54);
+                              color: rgb(191, 33, 54) !important;
+                                   padding-bottom: 9px;
+                          
+                                          }
+                                              </style>
+
+                                                      <ul>
+
+                                                             <li><a class="ops home" href="http://127.0.0.1:5500/">HOME</a></li>
+  
+                                                                
+  
+                                                                    <li class="submenu"><a class="ops opsbut prod" href="">PRODUCT</a>
+                                                                      
+                                                                      <div class="submenucontent1">
+  
+                                                                      <ul>
+                                                                        <li><a href="http://127.0.0.1:5500/products.html">URNS FOR ASHES</a></li>
+                                                                      <li><a href="">MIRRORS & WALL ARTS</a></li>
+                                                                     <li><a href="">JWELLERY</a></li>
+                                                                       <li><a href="">BLOG</a></li>
+                                                                       <li><a href="">KNITTING & CROCHETING</a></li>
+                                                                        <li><a href="">GAMES & PUZZLES</a></li>
+                                                                        <li><a href="">NAUTICAL</a></li>
+  
+                                                                        </ul>
+  
+                                                                              </div>
+                                                                            
+                                                                                </li>
+  
+                                                                     <li><a class="ops sust" href="http://127.0.0.1:5500/sustainability.html">SUSTAINABILITY</a></li>
+  
+                                                                                             
+                                                                                                <li class="submenu"><a class="ops opsbut2" href="">OUR STORY</a>
+                                                                                                     <div class="submenucontent2">
+  
+                                                                                                           <ul>
+                                                                                         <li><a href="">ABOUT CRAFTWIZ</a></li>
+                                                                     <li><a href="http://127.0.0.1:5500/Ourstory.html">LEADERSHIP</a></li>
+          
+                                                                                                       </ul>
+  
+                                                                         </div>
+                                                                          
+                                                                        </li>
+  
+                                                                   <li><a class="ops gall" href="http://127.0.0.1:5500/Gallery.html">GALLERY</a></li>
+                                                                    <li><a class="ops cont" href="http://127.0.0.1:5500/Contactus.html">CONTACT US</a></li>
+                                                                   <li><a class="ops prodactive carr" href="http://127.0.0.1:5500/Whyjoinus.html">CAREER</a></li>
+  
+  
+                                                                        </ul>
+                         </div>
+
+                       </div>
+          
+
+                                                                                      
+
+
+                       <div class="moblogo">
+                   <a href=""><img src="Data/Untitled-2.webp" alt="LOGO"></a>  
+                      
+                   <div class="menu">
+                    <ul>
+                        <li onclick=showmenubarinmob()><a href="#"><i class="fa-solid fa-bars"></i> <span>MENU</span></a></li>
+                    </ul>
+                </div>
+                    </div>
+                       
+                       
+                    
+                    <div class="mobnav">
+                    <div class="moboptionofnav">
+                        
+                            <ul>
+                                <li><a href="http://127.0.0.1:5500/">HOME</a></li>
+                                <li class="mobprod" onclick=submenu1()><a href="#">PRODUCT <span><i class="fa-solid fa-caret-right"></i></span></a>
+                                    <div class="mastersubmenu1">
+                                        <div class="mobsubmenu1">
+                                    
+                                            <ul>
+                               
+                                                <li class="backbut" onclick=submenuback()><a href="#"><i class="fa-solid fa-circle-arrow-left"></i></a></li>
+                                               <li><a href="http://127.0.0.1:5500/products.html">URNS FOR ASHES</a></li>
+                                                <li><a href="">MIRRORS & WALL ARTS</a></li>
+                                               <li><a href="">JWELLERY</a></li>
+                                                 <li><a href="">BLOG</a></li>
+                                                 <li><a href="">KNITTING & CROCHETING</a></li>
+                                                  <li><a href="">GAMES & PUZZLES</a></li>
+                                                  <li><a href="">NAUTICAL</a></li>
+                                            </ul>
+                                    
+                                    
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="">SUSTAINABILITY</a></li>
+                                <li class="mobourstry" onclick=submenu2()><a href="#">OUR STORY <span><i class="fa-solid fa-caret-right"></i></span></a>
+                                   
+                                    <div class="mastersubmenu2">
+                                        <div class="mobsubmenu2">
+                                    
+                                            <ul>
+                               
+                                                <li class="backbut" onclick=submenuback()><a href="#"><i class="fa-solid fa-circle-arrow-left"></i></a></li>
+                                                <li><a href="">ABOUT CRAFTWIZ</a></li>
+                                                <li><a href="http://127.0.0.1:5500/Ourstory.html">LEADERSHIP</a></li>
+                                            
+                                            </ul>
+                                    
+                                    
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="">GALLERY</a></li>
+                                <li><a href="">CONTACT US</a></li>
+                                <li><a href="">CAREER</a></li>
+                                
+                            </ul>
+                        </div>
+              
+                        </div>          
+
+
+
+        <div class="whyjoinushomeimagelive">
+             
+     <h1>CAREER</h1>
+            </div>
+     
+            <div class="whyjoinsec1cont">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/Career.html">JOIN NOW <span><i class="fa-solid fa-arrow-right"></i></span></a></li>
+                    </ul>
+            
+            <h1>WHY JOIN US?</h1>
+           
+           <div class="divpara">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto 
+                odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. 
+                Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper 
+                suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate </p>
+
+           </div>
+           
+                </div>
+<div class="wju1secdivimg">
+</div>
+      
+
+
+<div class="wjudirecceoboxcont">
+    <div class="cardirectorbox1">
+        <img src="Data/director.png" alt="">
+
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+            Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate </p>
+    </div> 
+    <div class="cardirectorbox2">
+        <img src="Data/ceo copy.webp" alt="">
+
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+            Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate </p>
+    </div>
+</div>
+
+<div class="whyjoinsec1cont">
+    <ul>
+        <li><a href="http://127.0.0.1:5500/Career.html">JOIN NOW <span><i class="fa-solid fa-arrow-right"></i></span></a></li>
+        </ul>
+</div>
+<!-- Footer for desktop version -->
+
+<div class="footerbackground">
+
+    <div class="wholefooterexceptdisclaimer">
+       
+       <div class="footdiv1">
+        <div class="footlogodiv">
+            <a href=""><img src="Data/Untitled-2.webp" alt=""></a>
+        
+            <div class="footermailandphone">
+                <ul>
+                    <li><a href="mailto://zafarali.pg@gmail.com">sales@craftswiz.com</a></li>
+                    <li><a href="https://wa.me/9897132820">+91 9897132820</a></li>
+                </ul>
+            </div>
+            <div class="socialmicons">
+                <a href=""><i class="fa-brands fa-instagram fa-2x"></i></a>
+                <a class="footlinkdin" href="https://www.linkedin.com/in/zafar-ali-8b94482ab/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+            </div>
+        </div>
+       
+       </div>
+        
+    <div class="footdiv2">
+        <div class="footdivsecs">
+        
+           
+        </div>
+    </div>
+    
+    <div class="footdiv3">
+        <div class="footdivsecs">
+        
+            <h1>OUR STORY</h1>
+            <ul>
+                <li><a href="">About CraftsWiz</a></li>
+                <li><a href="">Leadership</a></li>
+                <li><a href="">Sustainability</a></li>
+               </ul>
+        </div>
+    </div>
+    
+    <div class="footdiv4">
+        <div class="footdivsecs">
+        
+            <h1>OTHER LINKS</h1>
+            <ul>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Download Catalogue</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Why Join Us</a></li>
+                <li><a href="">Careers</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="footdiv5">
+        <div class="footdivsecs">
+        
+            <h1>COORPORATE OFFICE</h1>
+            
+                <ul> <li><a href="">Moholla Luhari Sarai, Machli Bazar, <br>
+                    Nagina, District:Bijnor, U.P. 246762</a></li>
+                </ul>
+                    <h1>FACTORY ADDRESS</h1>
+    
+                    <ul> <li> <a href="">Noorsarai, In-front of the Park <br>
+                    Nagina, District: Bijnor, U.P. 246762</a></li>
+                </ul>
+            
+        </div>
+    </div>
+    
+        </div>
+        </div>
+    
+    <!-- footer end for desktop version -->
+    
+    
+    
+    <!-- Footer start for android version -->
+    
+    
+    <div class="mobfooterbackground">
+    
+    <div class="mobwholefooterdiv" style="padding: 0 100px;">
+        <div class="mobdivsec1">
+            <a href=""><img src="Data/Untitled-2.webp" alt="logo"></a>
+            <ul>
+                <li><a href="mailto://zafarali.pg@gmail.com">sales@craftswiz.com</a></li>
+                <li><a href="https://wa.me/9897132820">+91 9897132820</a></li>
+              </ul>
+        <div class="mobsocialmediaicons">
+            <a href=""><i class="fa-brands fa-instagram fa-3x"></i></a>
+            <a class="footlinkdin" href="https://www.linkedin.com/in/zafar-ali-8b94482ab/"><i class="fa-brands fa-linkedin fa-3x"></i></a>
+       
+        </div>
+    
+            </div>
+        <div class="mobdivsec2">
+            
+            <div class="mobproddiv">1
+                <h1>PRODUCT</h1>
+                <ul>
+                    <li><a href="">Jwellery</a></li>
+                    <li><a href="">Nautical</a></li>
+                    <li><a href="">Games & Puzzles</a></li>
+                    <li><a href="">Mirror & Wall Arts</a></li>
+                    <li><a href="">Knitting & Crocheting</a></li>
+                    <li><a href="">Urns for Ashes</a></li>
+                </ul>
+    
+            </div>
+    <div class="mobourstrydivcont">
+    
+            <div class="mobproddiv">
+    
+        <h1>OUR STORY</h1>
+        <ul>
+            <li><a href="">About CraftsWiz</a></li>
+            <li><a href="http://127.0.0.1:5500/Ourstory.html">Leadership</a></li>
+            <li><a href="http://127.0.0.1:5500/sustainability.html">Sustainability</a></li>
+           </ul>
+    </div>
+    </div>
+    
+        </div>
+        <div class="mobdivsec3">
+            <div class="mobproddiv">
+            <h1>OTHER LINKS</h1>
+            <ul>
+                <li><a href="">Gallery</a></li>
+                <li><a href="">Download Catalogue</a></li>
+                <li><a href="http://127.0.0.1:5500/Contactus.html">Contact Us</a></li>
+                <li><a href="">Why Join Us</a></li>
+                <li><a href="http://127.0.0.1:5500/Career.html">Careers</a></li>
+            </ul>
+        </div></div>
+        <div class="mobdivsec4">
+            <div class="mobproddiv">
+            <h1>COORPORATE OFFICE</h1>
+            
+                <ul> <li><a href="">Moholla Luhari Sarai, Machli Bazar, <br>
+                    Nagina, District:Bijnor, U.P. 246762</a></li>
+                </ul>
+                    <h1>FACTORY ADDRESS</h1>
+    
+                    <ul> <li> <a href="">Noorsarai, In-front of the Park <br>
+                    Nagina, District: Bijnor, U.P. 246762</a></li>
+                </ul>
+            
+        </div>
+        </div>
+        
+    </div>
+    </div>
+    
+    
+        <div class="divider">
+        <span></span>
+    </div>
+        
+    <div class="disclaimer">
+        <p>© Copyright 2024 <span>CraftsWiz</span>. All rights reserved.</p>
+    </div>
+        
+    
+                                    
+                                             </body>
+    </html>                              
+    
+    
+    
